@@ -15,4 +15,9 @@ class PostsController
 
         return view('posts.show', compact('post'));
     }
+
+    public function create()
+    {
+        return view('posts.create');
+    }
 }
